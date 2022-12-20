@@ -5,8 +5,8 @@ public class Main {
 
         Author itAuthor = new Author("Stephen", "King");
         Author darkStarAuthor = new Author("Вера", "Камша");
-        System.out.println("itAuthor.getAuthorName() = " + itAuthor.getAuthorName());
-        System.out.println("darkStarAuthor.getAuthorName() = " + darkStarAuthor.getAuthorName());
+//        System.out.println("itAuthor.getAuthorName() = " + itAuthor.toString());
+//        System.out.println("darkStarAuthor.getAuthorName() = " + darkStarAuthor.toString());
 
         Book bookIt = new Book("IT", itAuthor, 1986);
         System.out.println("bookIt.bookTitle = " + bookIt.getBookTitle());

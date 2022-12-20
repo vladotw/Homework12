@@ -11,12 +11,12 @@ public class Author {
     }
 
     public String toString() {
-        return Author.this.firstName + Author.this.lastName;
-    }
-
-    public String getAuthorName() {
         return firstName + " " + lastName;
     }
+
+//    public String getAuthorName() {
+//        return firstName + " " + lastName;
+//    }
 
 
 }
